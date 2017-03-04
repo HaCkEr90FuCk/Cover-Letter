@@ -95,13 +95,5 @@ void sort(int b[], int c[]){
     }
 }
 
-//Merge function
-int *merge(int *left, int *right){
-    
-    int *pMerged = new int[n];      // Pointer is an array of size n
-    copy(left, left + subn , pMerged);  //copy addresses from left to end of left array into merge
-    copy(right, right + subn, pMerged + subn);
 
-    return pMerged;
-}
 
